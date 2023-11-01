@@ -6,7 +6,7 @@
 /*   By: abhudulo <abhudulo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 07:54:07 by abhudulo          #+#    #+#             */
-/*   Updated: 2023/10/31 22:08:29 by abhudulo         ###   ########.fr       */
+/*   Updated: 2023/11/01 20:32:32 by abhudulo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,13 @@ char	*ft_strtrim(char const *s1, char const *set);
 char	**ft_split(char const *s, char c);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 int		ft_memcmp(void *str1, void *str2, size_t n);
+void *ft_memalloc(size_t size);
+void ft_putchar(char c);
+void ft_putnbr(int n);
+void ft_putstr(char const *s);
+void ft_striter(char *s, void (*f)(char *));
+char **ft_strsplit(char const *s, char c);
+char *ft_strsub(char const *s, unsigned int start, size_t len);
 typedef struct s_list
 {
 	void			*content;

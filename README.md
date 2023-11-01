@@ -43,16 +43,8 @@ Libft is a project at 42 that requires us to re-create some standard C library f
 ### ➕ Additional functions
 
 - `ft_memalloc`
-- `ft_memdel`
-- `ft_strnew`
-- `ft_strdel`
-- `ft_strclr`
 - `ft_striter`
-- `ft_striteri`
-- `ft_strmap`
 - `ft_strmapi`
-- `ft_strequ`
-- `ft_strnequ`
 - `ft_strsub`
 - `ft_strjoin`
 - `ft_strtrim`
@@ -60,7 +52,6 @@ Libft is a project at 42 that requires us to re-create some standard C library f
 - `ft_itoa`
 - `ft_putchar`
 - `ft_putstr`
-- `ft_putendl`
 - `ft_putnbr`
 - `ft_putchar_fd`
 - `ft_putstr_fd`
